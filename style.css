@@ -1,0 +1,81 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+h1 {
+  color: #333;
+}
+
+.game-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+#word-display {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0;
+  height: 50px;
+}
+
+#input-box {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #9e9e9e;
+  cursor: not-allowed;
+}
+
+.category-selection {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-selection label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.category-selection select {
+  padding: 5px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

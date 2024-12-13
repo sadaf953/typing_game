@@ -1,0 +1,12 @@
+# This project is a pure frontend application
+# No specific requirements needed
+# Recommended browsers:
+# - Google Chrome (Latest Version)
+# - Mozilla Firefox (Latest Version)
+# - Safari (Latest Version)
+# - Microsoft Edge (Latest Version)
+
+# For local development, you can use:
+# - Live Server extension in VS Code
+# - Python's http.server
+# - Any local development server

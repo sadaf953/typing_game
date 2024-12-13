@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Typing Speed Test</h1>
+    <div class="category-selection">
+      <label for="category-select">Choose Category:</label>
+      <select id="category-select">
+        <option value="fruits">Fruits</option>
+        <option value="programming">Programming</option>
+        <option value="animals">Animals</option>
+        <option value="countries">Countries</option>
+        <option value="food">Food</option>
+      </select>
+    </div>
+    <div class="game-info">
+      <div>Time Left: <span id="time">60</span>s</div>
+      <div>Score: <span id="score">0</span></div>
+      <div>Accuracy: <span id="accuracy">100</span>%</div>
+    </div>
+    <div id="word-display">Press Start to Begin!</div>
+    <input type="text" id="input-box" placeholder="Type here..." disabled />
+    <button id="start-button">Start</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
